@@ -422,4 +422,41 @@
 //         document.write(x[0])
 //     }
 // }
+
 // 28번 문제
+
+// let a = prompt('출생년도를 입력해 주세요.');
+// let b = prompt('출생년도를 입력해 주세요.');
+// let x = 0;
+
+// if(b == 1){
+//     x = 1900
+// }
+// else if(b == 2){
+//     x = 2000
+// }
+
+// document.write(2012 - x - (a[0]*10) - a[1] + 1);
+
+// 29번 문제
+
+// let n = prompt('시간을 입력하세요.').split(' ');
+// let x = ' ';
+
+// if(n[1] < 30){
+//     x = n[0]-1 + ' ' + (60 + (n[1]-30))
+// }
+// else if(n[1] > 30){
+//     x = n[0] + ' ' + (n[1] - 30)
+// }
+
+// document.write(x)
+
+// 30번 문제
+
+// let n = prompt('숫자를 입력하세요.');
+// let x = n.split(' ');
+
+// let y = x.sort();
+
+// document.write(y);
