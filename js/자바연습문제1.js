@@ -460,3 +460,198 @@
 // let y = x.sort();
 
 // document.write(y);
+
+// 31번 문제
+
+// function f(){
+//     let n = prompt('숫자를 입력하세요.');
+//     let result = ''
+
+//     if(n % 2 == 0 && n < 0){
+//         result = 'A'
+//     } else if (n % 2 != 0 && n < 0){
+//         result = 'B'
+//     } else if (n % 2 == 0 && n > 0){
+//         result = 'C'
+//     } else {
+//         result = 'D'
+//     };
+
+//     return result;
+// };
+// let number = f();
+// document.write(number)
+
+// 32번 문제
+
+// function f(){
+//     let n = prompt('달을 입력해 주세요');
+//     let result = '';
+//     if(3 <= n && n <= 5){
+//         result = 'spring'
+//     } else if(6 <= n && n <= 8){
+//         result = 'summer'
+//     } else if(9 <= n && n <= 11){
+//         result = 'fall'
+//     } else{
+//         result = 'winter'
+//     };
+
+//     return result
+// }
+// let season = f();
+// document.write(season)
+
+// 33번 문제
+
+// function f(){
+//     let n = prompt('공의 위치를 입력하세요.');
+//     let result = '';
+
+//     if(50 <= n && n <= 60){
+//         result = 'win'
+//     } else {
+//         result = 'lose'
+//     };
+
+//     return result;
+// };
+
+// let position = f();
+// document.write(position)
+
+// 34번 문제
+
+// function f(){
+//     let n = prompt('공의 위치를 입력하세요.');
+//     let result = '';
+
+//     if(50 <= n && n <= 70 || n % 6 == 0){
+//         result = 'win'
+//     } else {
+//         result = 'lose'
+//     }
+
+//     return result;
+// };
+// let position = f();
+// document.write(position)
+
+// 35번 문제
+
+// function f(){
+//     let n = prompt('숫자를 입력하세요').split(' ');
+//     let cal = n[0] + n[1]
+//     let result = '';
+
+//     if(n[0] % 2 != 0){
+//         result = '홀수 + '
+//     } else{
+//         result = '짝수 + '
+//     }
+//     if(n[1] % 2 != 0){
+//         result += '홀수 = '
+//     } else {
+//         result += '짝수 = '
+//     }
+//     if(cal % 2 != 0){
+//         result += '홀수'
+//     } else {
+//         result += '짝수'
+//     };
+
+//     return result;
+// };
+// let number = f();
+// document.write(number);
+
+// 36번 문제
+
+// function f(){
+//     let n = prompt('숫자를 입력하세요.');
+//     let x = n.split(' ');
+//     let result = '';
+
+//     if(x[0] <= x[1] && x[0] <= x[2]){
+//         if(x[1] <= x[2]){
+//             result = x[1]
+//         }
+//         else{
+//             result = x[2]
+//         }
+//     }
+//     if(x[1] <= x[0] && x[1] <= x[2]){
+//         if(x[0] <= x[2]){
+//             result = x[0]
+//         }
+//         else{
+//             result = x[2]
+//         }
+//     }
+//     if(x[2] <= x[1] && x[2] <= x[0]){
+//         if(x[1] <= x[0]){
+//             result = x[1]
+//         }
+//         else{
+//             result = x[0]
+//         }
+//     }
+//     return result;
+// };
+// let second = f();
+// document.write(second);
+
+// 37번 문제
+
+// function f(){
+//     let n = prompt('생년월일 입력 ㄱㄱ').split(' ');
+//     let result = '';
+
+//     if(n[1] == 1 || n[1] == 2){
+//         result = 2012 - 1900 - (n[0].charAt(0) * 10) - n[0].charAt(1) + 1;
+//     } else if(n[1] == 3 || n[1] == 4){
+//         result = 2012 - 2000 - (n[0].charAt(0) * 10) - n[0].charAt(1) + 1;
+//     }
+//     return result
+// }
+// let age = f();
+// document.write(age);
+
+// 38번 문제
+
+// function f(){
+//     let n = prompt('시간을 입력하세욘').split(' ');
+//     let result = '';
+
+//     if(n[1] < 30){
+//         result = (n[0] - 1) + ' ' + (60 + (n[1] - 30));
+//     } else {
+//         result = n[0] + ' ' + (n[1] - 30);
+//     }
+//     return result;
+// };
+// let time = f();
+// document.write(time);
+
+// 39번 문제
+
+// function f(){
+//     let n = prompt('숫자를 입력하셈').split(' ');
+//     let result = n.sort();
+
+//     return result;
+// };
+// let sort = f();
+// document.write(sort);
+
+// 40번 문제
+
+// function f(){
+//     let a = prompt('문자를 입력하세요')
+//     let b = prompt('문자를 입력하세요')
+
+//     let str = b + a
+//     return str
+// };
+// let string = f();
+// document.write(string);
